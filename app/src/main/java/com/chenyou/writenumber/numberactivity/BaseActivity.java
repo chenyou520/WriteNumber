@@ -144,6 +144,11 @@ public abstract class BaseActivity extends Activity {
     }
 
 
+    /**
+     * 当手指抬起时
+     * @param iv_frame
+     * @param event
+     */
     public void eventUp(ImageView iv_frame, MotionEvent event) {
         type = 0;// 手势关闭
         // 当手指离开的时候
