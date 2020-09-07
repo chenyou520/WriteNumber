@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--设置按钮默认显示的图片-->
+    <item android:drawable="@drawable/btn_play1" android:state_focused="false" android:state_pressed="false" />
+    <!--设置按钮按下显示的图片-->
+    <item android:drawable="@drawable/btn_play2" android:state_pressed="true" />
+    <!--设置按钮长按时显示的图片-->
+    <item android:drawable="@drawable/btn_play2" android:state_focused="true" />
+</selector>
